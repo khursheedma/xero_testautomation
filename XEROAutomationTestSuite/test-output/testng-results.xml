@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100013" started-at="2020-03-21T23:40:21 PDT" finished-at="2020-03-21T23:42:01 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="100013" started-at="2020-03-21T23:40:21 PDT" finished-at="2020-03-21T23:42:01 PDT">
+      <class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases">
+        <test-method status="PASS" signature="InitializeTest(java.lang.String)[pri:0, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="InitializeTest" is-config="true" duration-ms="3449" started-at="2020-03-21T23:40:21 PDT" finished-at="2020-03-21T23:40:24 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeTest -->
+        <test-method status="PASS" signature="InitializeCls()[pri:0, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="InitializeCls" is-config="true" duration-ms="455" started-at="2020-03-21T23:40:24 PDT" finished-at="2020-03-21T23:40:25 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeCls -->
+        <test-method status="PASS" signature="TC02_IncorrectPassword()[pri:2, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC02_IncorrectPassword" duration-ms="16094" started-at="2020-03-21T23:40:25 PDT" finished-at="2020-03-21T23:40:41 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_IncorrectPassword -->
+        <test-method status="PASS" signature="TC03_IncorrectEmail()[pri:3, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC03_IncorrectEmail" duration-ms="11415" started-at="2020-03-21T23:40:41 PDT" finished-at="2020-03-21T23:40:52 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_IncorrectEmail -->
+        <test-method status="PASS" signature="TC04_ForgotPassword()[pri:4, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC04_ForgotPassword" duration-ms="19214" started-at="2020-03-21T23:40:52 PDT" finished-at="2020-03-21T23:41:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_ForgotPassword -->
+        <test-method status="PASS" signature="TC05_SignUpToXDC()[pri:5, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC05_SignUpToXDC" duration-ms="8778" started-at="2020-03-21T23:41:12 PDT" finished-at="2020-03-21T23:41:20 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_SignUpToXDC -->
+        <test-method status="PASS" signature="TC06_SignUpToXDC()[pri:6, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC06_SignUpToXDC" duration-ms="9278" started-at="2020-03-21T23:41:20 PDT" finished-at="2020-03-21T23:41:30 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_SignUpToXDC -->
+        <test-method status="PASS" signature="TC07_SignUpToXDC()[pri:7, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC07_SignUpToXDC" duration-ms="16456" started-at="2020-03-21T23:41:30 PDT" finished-at="2020-03-21T23:41:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_SignUpToXDC -->
+        <test-method status="PASS" signature="TC08_SignUpToXDC()[pri:8, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC08_SignUpToXDC" duration-ms="6546" started-at="2020-03-21T23:41:46 PDT" finished-at="2020-03-21T23:41:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_SignUpToXDC -->
+        <test-method status="PASS" signature="TC09_SignUpToXDC()[pri:9, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="TC09_SignUpToXDC" duration-ms="7539" started-at="2020-03-21T23:41:53 PDT" finished-at="2020-03-21T23:42:00 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_SignUpToXDC -->
+        <test-method status="PASS" signature="AfterClassMethod()[pri:0, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="AfterClassMethod" is-config="true" duration-ms="509" started-at="2020-03-21T23:42:00 PDT" finished-at="2020-03-21T23:42:01 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethod -->
+        <test-method status="PASS" signature="CloseBrowserTest()[pri:0, instance:XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases@57e1b0c]" name="CloseBrowserTest" is-config="true" duration-ms="201" started-at="2020-03-21T23:42:01 PDT" finished-at="2020-03-21T23:42:01 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowserTest -->
+      </class> <!-- XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
