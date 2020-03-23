@@ -9,12 +9,12 @@
     </classes>
     
   </test> <!-- Test -->
-  <!-- <test thread-count="5" name="XERO Test using FireFox">
+  <test thread-count="5" name="XERO Test using FireFox">
   	
   	<parameter name="browserName" value="Firefox" />  
   	<classes>
       <class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases"/>
     </classes>
     
-  </test> Test -->
+  </test> 
 </suite> <!-- Suite -->
