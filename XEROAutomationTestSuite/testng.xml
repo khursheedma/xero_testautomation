@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="XERO Test Suite Automation">
   <test thread-count="5" name="XERO Test using Chrome">
   	
-  	<parameter name="browserName" value="chrome" />  
+  	<parameter name="browserName" value="Chrome" />  
   	<classes>
       <class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases"/>
     </classes>
     
   </test> <!-- Test -->
-  <test thread-count="5" name="XERO Test using FireFox">
+  <!-- <test thread-count="5" name="XERO Test using FireFox">
   	
-  	<parameter name="browserName" value="firefox" />  
+  	<parameter name="browserName" value="Firefox" />  
   	<classes>
       <class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases"/>
     </classes>
     
-  </test> <!-- Test -->
+  </test> Test -->
 </suite> <!-- Suite -->
