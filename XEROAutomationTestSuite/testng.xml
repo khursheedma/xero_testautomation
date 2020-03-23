@@ -5,16 +5,52 @@
   	
   	<parameter name="browserName" value="Chrome" />  
   	<classes>
-      <class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases"/>
+      	<class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases" >
+      		<methods>
+	    		<include name="TC01_NavigateToXERO" />
+	    		<include name="TC02_IncorrectPassword" />
+	    		<include name="TC03_IncorrectEmail" />
+	    		<include name="TC04_ForgotPassword" />
+	    		<include name="TC05_SignUpToXDC" />
+	    		<include name="TC06_SignUpToXDC" />
+	    		<include name="TC07_SignUpToXDC" />
+	    		<include name="TC08_SignUpToXDC" />
+	    		<include name="TC09_SignUpToXDC" />
+	    		<include name="TC10_TestAllTabsPage" />
+	    		<include name="TC11_LogoutFunctionality" />
+	    		<include name="TC12_UploadProfileImage" />
+	    		<include name="TC13_AddAnotherOrgTrailVer_1" />
+	    		<include name="TC14_AddAnotherOrgTrailVer_2" />
+    		</methods>	
+    	</class>
     </classes>
     
-  </test> <!-- Test -->
+  </test> 
   <test thread-count="5" name="XERO Test using FireFox">
   	
   	<parameter name="browserName" value="Firefox" />  
   	<classes>
-      <class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases"/>
+      <class name="XEROAutomationTestSuite.XEROAutomationTestSuite.XEROTestCases" >
+      		<methods>
+	    		<include name="TC01_NavigateToXERO" />
+	    		<include name="TC02_IncorrectPassword" />
+	    		<include name="TC03_IncorrectEmail" />
+	    		<include name="TC04_ForgotPassword" />
+	    		<include name="TC05_SignUpToXDC" />
+	    		<include name="TC06_SignUpToXDC" />
+	    		<include name="TC07_SignUpToXDC" />
+	    		<include name="TC08_SignUpToXDC" />
+	    		<include name="TC09_SignUpToXDC" />
+	    		<include name="TC10_TestAllTabsPage" />
+	    		<include name="TC11_LogoutFunctionality" />
+	    		<include name="TC12_UploadProfileImage" />
+	    		<include name="TC13_AddAnotherOrgTrailVer_1" />
+	    		<include name="TC14_AddAnotherOrgTrailVer_2" />
+    		</methods>	
+    	</class>
     </classes>
     
   </test> 
+  
+  
 </suite> <!-- Suite -->
