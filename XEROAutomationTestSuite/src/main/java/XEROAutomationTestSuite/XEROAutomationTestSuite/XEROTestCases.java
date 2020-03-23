@@ -743,6 +743,7 @@ public class XEROTestCases extends XEROReusableMethods {
 		while (iterator.hasNext()){
 		    subWindowHandler = iterator.next();
 		}
+		
 		driver.switchTo().window(subWindowHandler); // switch to new tab/window window
 		
 		// Now you are in the new window/tab, perform necessary actions here
